@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Pomodoro Timer with Firebase Authentication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Pomodoro Timer application built with React and Firebase. It includes authentication features allowing users to sign up and log in using either Google or email and password.
 
-## Available Scripts
+## Hosted Link 
 
-In the project directory, you can run:
+https://pomodro-timer-app-neon.vercel.app/
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sign Up Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![ss1](https://github.com/user-attachments/assets/915249bd-a777-40e4-8a0d-ff0064b32bcd)
 
-### `npm test`
+## Login Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![ss2](https://github.com/user-attachments/assets/d9e61fca-7451-4f28-bc6a-9bf330ea2ee8)
 
-### `npm run build`
+## Pomodro Timer Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![ss3](https://github.com/user-attachments/assets/788fd532-e7c4-4b90-a928-6c79ae9e090e)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Pomodoro Timer (25 minutes work session)
+- 5 minutes break timer after each work session
+- Firebase Authentication (Google Sign-In, Email, and Password)
+- Responsive design
+- User-friendly notifications
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- Firebase (Authentication)
+- react-router-dom
+- react-icons
+- react-toastify
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
